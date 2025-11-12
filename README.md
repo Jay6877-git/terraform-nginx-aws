@@ -21,7 +21,7 @@ Provision a minimal AWS network and an EC2 instance accessible over HTTP/HTTPS. 
     or environment vars: ``AWS_ACCESS_KEY_ID``, ``AWS_SECRET_ACCESS_KEY``, ``AWS_DEFAULT_REGION``
 
 ## Repo layout
-``
+```
 .
 ├─ provider.tf
 ├─ networking.tf
@@ -29,7 +29,7 @@ Provision a minimal AWS network and an EC2 instance accessible over HTTP/HTTPS. 
 ├─ outputs.tf          # optional; see below
 └─ docs/
    └─ proj00-vpc-ec2-nginx.png
-``
+```
 
 ## Quick start
 ``
