@@ -32,12 +32,12 @@ Provision a minimal AWS network and an EC2 instance accessible over HTTP/HTTPS. 
 ```
 
 ## Quick start
-``
+```
 terraform init
 terraform validate
 terraform plan
 terraform apply -auto-approve
-``
+```
 
 ## After apply:
 - Find the instance public IP/DNS in the Terraform outputs (add outputs.tf below) or the EC2 console.
